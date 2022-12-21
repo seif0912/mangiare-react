@@ -1,0 +1,38 @@
+
+  .burger {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    display: none;
+    padding: 25px;
+    cursor: pointer;
+  }
+  
+  .burger span {
+    height: 3px;
+    width: 25px;
+    background-color: white;
+    display: block;
+    -webkit-transition: inherit;
+    transition: inherit;
+  }
+  
+  .burger span:not(:last-child) {
+    margin-bottom: 4px;
+  }
+  
+  .burger.clicked span:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .burger.clicked span:nth-child(1) {
+    -webkit-transform: rotate(-45deg) translate(-4px, 6px);
+            transform: rotate(-45deg) translate(-4px, 6px);
+  }
+  
+  .burger.clicked span:nth-child(3) {
+    -webkit-transform: rotate(45deg) translate(-4px, -6px);
+            transform: rotate(45deg) translate(-4px, -6px);
+  }

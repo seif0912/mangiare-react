@@ -1,0 +1,82 @@
+
+.reservation {
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    background-image: url("../../assets/appoinment.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+    padding-top: 75px;
+    padding-bottom: 75px;
+  }
+  
+  .reservation .head {
+    margin-bottom: 50px;
+  }
+  
+  .reservation .head .title,
+  .reservation .head h2 {
+    color: white;
+    font-weight: normal;
+  }
+  
+  .reservation .con {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    position: absolute;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    padding: 10px;
+  }
+  
+  form {
+    background-color: rgba(255, 255, 255, 0.75);
+    max-width: 450px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  form .row {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  form .row input,
+  form .row select {
+    width: 500%;
+    padding: 10px;
+    text-transform: uppercase;
+    margin: 10px;
+    border: 1px solid #eaeaea;
+  }
+  
+  form .row input:focus,
+  form .row select:focus {
+    outline: none;
+  }
+  
+  form input[type="submit"] {
+    background-color: var(--main-color-theme);
+    border: none;
+    margin: 10px;
+    width: calc(100% - 20px);
+    padding: 10px;
+    text-transform: uppercase;
+    color: white;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 500px) {
+    .reservation .con form .row {
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+    }
+  }
+  

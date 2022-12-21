@@ -1,0 +1,26 @@
+.sectionHeader{
+    margin-bottom: 25px;
+}
+.title {
+    font-family: 'Great Vibes', cursive;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-size: 60px;
+    color: var(--main-color-theme);
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+
+img {
+    width: 85px;
+}
+  
+h2 {
+    margin-bottom: 0;
+    text-transform: capitalize;
+    color: #555;
+    font-weight: 900;
+    font-size: 30px;
+    margin-top: 15px;
+}

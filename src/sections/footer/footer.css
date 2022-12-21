@@ -1,0 +1,124 @@
+
+footer {
+    background-color: #333;
+  }
+  
+  footer .container {
+    padding-top: 50px;
+    padding-bottom: 75px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    border-bottom: 1px dashed #555;
+  }
+  
+  footer .container .box {
+    max-width: 410px;
+    color: #999;
+  }
+  
+  footer .container .box p {
+    line-height: 1.4;
+  }
+  
+  footer .container .box .social {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+  }
+  
+  footer .container .box .social li a  {
+    color: #aaa;
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    z-index: 5;
+    padding: 14px 16px;
+    background-color: #555;
+    border-radius: 50%;
+    -webkit-transition: .3s;
+    transition: .3s;
+  }
+  
+  footer .container .box .social li a:hover {
+    background-color: #fafafa;
+    color: var(--main-color-theme);
+  }
+  
+  footer .container .box h2 {
+    text-transform: uppercase;
+    color: #fafafa;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 600;
+    letter-spacing: 2px;
+  }
+  
+  footer .container .box .days {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 40px;
+  }
+  
+  footer .container .box .days .daysG .day {
+    margin-bottom: 20px;
+  }
+  
+  footer .container .box .days .daysG .day h4 {
+    color: rgba(255, 255, 255, 0.9);
+    margin-top: 0;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+  }
+  
+  footer .container .box .days .daysG .day span {
+    color: rgba(255, 255, 255, 0.75);
+  }
+  
+  footer .copy {
+    text-align: center;
+    padding: 20px;
+    color: #999;
+    line-height: 1.5;
+  }
+  
+  footer .copy a {
+    color: var(--main-color-theme);
+    font-weight: 600;
+    text-transform: capitalize;
+  }
+  
+  footer .copy a:hover {
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 811px) {
+    footer .container {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      gap: 40px;
+      text-align: center;
+    }
+    footer .container #logo {
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+    }
+    footer .container .social {
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+    }
+  }
+  

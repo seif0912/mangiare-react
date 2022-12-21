@@ -1,0 +1,5 @@
+export {default as Home} from './home/Home'
+export {default as AboutUs1} from './aboutUs1/AboutUs1'
+export {default as AboutUs2} from './aboutUs2/AboutUs2'
+export {default as AboutUs3} from './aboutUs3/AboutUs3'
+export {default as Chef} from './chef/Chef'
