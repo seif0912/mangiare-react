@@ -7,9 +7,9 @@ import img2 from '../../assets/chef-logo.png'
 import img3 from '../../assets/bowl-logo.png'
 import img4 from '../../assets/delivery-logo.png'
 
-const Speciality = () => {
+const Speciality = (props) => {
   return (
-    <div className="speciality">
+    <div className={`speciality ${props.class}`}>
         <Container>
             <SectionHeader img={chefHatLogo} title="spciality" disc="our feature" flip={false}/>
             <div className="info">

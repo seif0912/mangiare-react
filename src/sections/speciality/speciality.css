@@ -5,7 +5,11 @@
     text-align: center;
   }
   
-  .speciality .info {
+.speciality.grey-bg{
+  background-color: #f9f9f9;
+}
+
+.speciality .info {
     margin-top: 50px;
     display: -webkit-box;
     display: -ms-flexbox;

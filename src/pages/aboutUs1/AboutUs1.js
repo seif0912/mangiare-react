@@ -1,5 +1,5 @@
 import React from 'react'
-import { Welcome} from '../../sections/Index'
+import { Welcome, Speciality, Rest, Chef, Testimonials } from '../../sections/Index'
 import {PageHeader} from '../../components/Index'
 
 const AboutUs1 = () => {
@@ -7,6 +7,10 @@ const AboutUs1 = () => {
     <>
         <PageHeader title="about us 1"/> 
         <Welcome/>
+        <Speciality class="grey-bg"/>
+        <Rest/>
+        <Chef/>
+        <Testimonials/>
     </>
 
   )
