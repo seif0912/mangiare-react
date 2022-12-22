@@ -17,7 +17,7 @@ const Header = () => {
             </Link>
             <ul className={`menu ${menu}`}>
                 <li>
-                    <Link to="/" className="main-link active">home</Link>
+                    <Link to="/" className="main-link">home</Link>
                     <ul className="sub-menu">
                         <li><a href="/#">home revolution</a></li>
                         <li><a href="/#">homepage parallax</a></li>

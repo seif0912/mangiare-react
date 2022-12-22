@@ -1,10 +1,11 @@
 import React from 'react'
-import {HeroAboutUs1, Welcome} from '../../sections/Index'
+import { Welcome} from '../../sections/Index'
+import {PageHeader} from '../../components/Index'
 
 const AboutUs1 = () => {
   return (
     <>
-        <HeroAboutUs1/> 
+        <PageHeader title="about us 1"/> 
         <Welcome/>
     </>
 

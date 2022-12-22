@@ -1,6 +1,5 @@
 export {default as Footer} from './footer/Footer'
 export {default as Header} from './header/Header'
-export {default as HeroAboutUs1} from './heroAboutUs1/HeroAboutUs1'
 export {default as Hero} from './hero/Hero'
 export {default as About} from './about/About'
 export {default as Welcome} from './welcome/Welcome'
