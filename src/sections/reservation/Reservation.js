@@ -4,25 +4,25 @@ import conImg from '../../assets/contact-form.png'
 
 const Reservation = () => {
   return (
-    <div class="reservation">
-        <div class="con">
-            <div class="head">
+    <div className="reservation">
+        <div className="con">
+            <div className="head">
                 <img src={conImg} alt=""/>
-                <h1 class="title">reservation</h1>
+                <h1 className="title">reservation</h1>
                 <h2>book your table</h2>
             </div>
             <form>
-                <div class="row">
+                <div className="row">
                     <input type="text" name="" placeholder="YOUR NAME"/>
                     <input type="email" name="" placeholder="YOUR EMAIL"/>
                 </div>
-                <div class="row">
+                <div className="row">
                     <input type="text" name="" placeholder="RESERVATION"/>
                     <input type="text" name="" placeholder="YOUR NAME"/>
                 </div>
-                <div class="row">
-                    <select name="reservation_time" class="form-control" id="reservation-time" required="required">
-                        <option value="" selected="selected">Time</option>
+                <div className="row">
+                    <select name="reservation_time" className="form-control" id="reservation-time" required="required">
+                        <option defaultValue >Time</option>
                         <option value="1">9:00 am</option>
                         <option value="2">10:00 am</option>
                         <option value="2">11:00 am</option>
@@ -38,8 +38,8 @@ const Reservation = () => {
                         <option value="2">09:00 pm</option>
                         <option value="2">10:00 pm</option>
                     </select>
-                    <select name="people_number" class="form-control" id="people_number" required="required">
-                        <option value="" selected="selected">Member</option>
+                    <select name="people_number" className="form-control" id="people_number" required="required">
+                        <option defaultValue >Member</option>
                         <option value="1">1</option>
                         <option value="2">2</option>
                         <option value="3">3</option>

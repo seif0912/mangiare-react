@@ -19,16 +19,16 @@ const Header = () => {
                 <li>
                     <Link to="/" className="main-link active">home</Link>
                     <ul className="sub-menu">
-                        <li><a href="#">home revolution</a></li>
-                        <li><a href="#">homepage parallax</a></li>
-                        <li><a href="#">homepage-2</a></li>
-                        <li><a href="#">homepage-3</a></li>
-                        <li><a href="#">home coffee shop</a></li>
-                        <li><a href="#">home pastry shop</a></li>
+                        <li><a href="/#">home revolution</a></li>
+                        <li><a href="/#">homepage parallax</a></li>
+                        <li><a href="/#">homepage-2</a></li>
+                        <li><a href="/#">homepage-3</a></li>
+                        <li><a href="/#">home coffee shop</a></li>
+                        <li><a href="/#">home pastry shop</a></li>
                     </ul>
                 </li>
                 <li>
-                    <a href="#" className="main-link">pages</a>
+                    <a href="/#" className="main-link">pages</a>
                     <ul className="sub-menu">
                         <li><Link to="/about-us-1">about us 1</Link></li>
                         <li><Link to="/about-us-2">about us 2</Link></li>
@@ -40,36 +40,36 @@ const Header = () => {
                     </ul>
                 </li>
                 <li>
-                    <a href="#" className="main-link">reservation</a>
+                    <a href="/#" className="main-link">reservation</a>
                     <ul className="sub-menu">
-                        <li><a href="#">reservation style 1</a></li>
-                        <li><a href="#">reservation style 2</a></li>
-                        <li><a href="#">reservation style 3</a></li>
+                        <li><a href="/#">reservation style 1</a></li>
+                        <li><a href="/#">reservation style 2</a></li>
+                        <li><a href="/#">reservation style 3</a></li>
                     </ul>
                 </li>
                 <li>
-                    <a href="#" className="main-link">food menu</a>
+                    <a href="/#" className="main-link">food menu</a>
                     <ul className="sub-menu">
-                        <li><a href="#">food menu style 1</a></li>
-                        <li><a href="#">food menu style 2</a></li>
+                        <li><a href="/#">food menu style 1</a></li>
+                        <li><a href="/#">food menu style 2</a></li>
                     </ul>
                 </li>
                 <li className="sp">
-                    <a href="#" className="main-link">feature</a>
+                    <a href="/#" className="main-link">feature</a>
                     <div className="feature">
                         <ul className="box">
-                            <li><a href="#">tab</a></li>
-                            <li><a href="#">accordion</a></li>
-                            <li><a href="#">alert</a></li>
-                            <li><a href="#">pricing table</a></li>
-                            <li><a href="#">divider</a></li>
+                            <li><a href="/#">tab</a></li>
+                            <li><a href="/#">accordion</a></li>
+                            <li><a href="/#">alert</a></li>
+                            <li><a href="/#">pricing table</a></li>
+                            <li><a href="/#">divider</a></li>
                         </ul>
                         <ul className="box">
-                            <li><a href="#">F.A.Q</a></li>
-                            <li><a href="#">typography</a></li>
-                            <li><a href="#">404 page</a></li>
-                            <li><a href="#">offline page</a></li>
-                            <li><a href="#">dropcap</a></li>
+                            <li><a href="/#">F.A.Q</a></li>
+                            <li><a href="/#">typography</a></li>
+                            <li><a href="/#">404 page</a></li>
+                            <li><a href="/#">offline page</a></li>
+                            <li><a href="/#">dropcap</a></li>
                         </ul>
                         <div className="schedule">
                             <h3>Mangiare opening hours</h3>
@@ -107,17 +107,17 @@ const Header = () => {
                     </div>
                 </li>
                 <li>
-                    <a href="#" className="main-link">blog</a>
+                    <a href="/#" className="main-link">blog</a>
                     <ul className="sub-menu right">
-                        <li><a href="#">food menu style 1</a></li>
-                        <li><a href="#">food menu style 2</a></li>
+                        <li><a href="/#">food menu style 1</a></li>
+                        <li><a href="/#">food menu style 2</a></li>
                     </ul>
                 </li>
                 <li>
-                    <a href="#" className="main-link">contact</a>
+                    <a href="/#" className="main-link">contact</a>
                     <ul className="sub-menu right">
-                        <li><a href="#">food menu style 1</a></li>
-                        <li><a href="#">food menu style 2</a></li>
+                        <li><a href="/#">food menu style 1</a></li>
+                        <li><a href="/#">food menu style 2</a></li>
                     </ul>
                 </li>
             </ul>

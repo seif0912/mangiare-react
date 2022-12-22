@@ -2,9 +2,8 @@ import React from 'react'
 import './ticket.css'
 
 const Ticket = (props) => {
-    console.log(props.imgSrc)
   return (
-    <div className="ticket">
+    <div className="ticket" >
         <img src={props.imgSrc} alt=""/>
         <div className="info">
             <h3>{props.title}</h3>

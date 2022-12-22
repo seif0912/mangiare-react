@@ -3,7 +3,7 @@ import chef2 from '../assets/chef-2.jpg'
 import chef3 from '../assets/chef-3.jpg'
 
 export const Chefs = [
-    {key: 0, name: 'saifulaah sammo', title: 'head chef', imgSrc: chef1},
-    {key: 0, name: 'saifulaah sammo', title: 'head chef', imgSrc: chef2},
-    {key: 0, name: 'saifulaah sammo', title: 'head chef', imgSrc: chef3},
+    {id: 0, name: 'saifulaah sammo', title: 'head chef', imgSrc: chef1},
+    {id: 1, name: 'saifulaah sammo', title: 'head chef', imgSrc: chef2},
+    {id: 2, name: 'saifulaah sammo', title: 'head chef', imgSrc: chef3},
 ]

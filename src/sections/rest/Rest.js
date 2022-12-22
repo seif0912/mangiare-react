@@ -5,7 +5,7 @@ import { Button } from '../../components/Index'
 
 const Rest = () => {
   return (
-    <div class="rest">
+    <div className="rest">
         <div className="box">
             <img src={bgImg} alt=""/>
             <h1>mangiare restaurant</h1>

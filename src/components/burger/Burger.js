@@ -3,7 +3,7 @@ import './burger.css'
 
 const Burger = ({setBurger, burger,setMenu, menu}) => {
   const clickHandler = () => {
-    if(burger=="clicked"){
+    if(burger==="clicked"){
       setBurger('')
       setMenu('')
     }else{

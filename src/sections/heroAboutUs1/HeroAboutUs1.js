@@ -7,7 +7,7 @@ const HeroAboutUs1 = () => {
         <div className="container">
             <h1>about us</h1>
             <p>
-                <a href="/">home</a> / <a href="#">pages</a> / <span>about us</span>
+                <a href="/">home</a> / <a href="/#">pages</a> / <span>about us</span>
             </p>
         </div>
     </div>

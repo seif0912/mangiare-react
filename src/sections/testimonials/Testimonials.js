@@ -8,14 +8,14 @@ import {FaAngleLeft, FaAngleRight} from 'react-icons/fa'
 
 const Testimonials = () => {
   return (
-    <div class="testimonial">
+    <div className="testimonial">
         <SectionHeader img={quoteLogo} title="testimonial" disc="customer feedback" flip={false}/>
         <Container>
-            <div class="slider">
+            <div className="slider">
                 <span className='i'><FaAngleLeft/></span>
-                <div class="testi">
-                    <div class="box">
-                        <div class="image">
+                <div className="testi">
+                    <div className="box">
+                        <div className="image">
                             <img src={img1} alt=""/>
                         </div>
                         <p>
@@ -23,8 +23,8 @@ const Testimonials = () => {
                         </p>
                         <h3>jane doe</h3>
                     </div>
-                    <div class="box active">
-                        <div class="image">
+                    <div className="box active">
+                        <div className="image">
                             <img src={img2} alt=""/>
                         </div>
                         <p>

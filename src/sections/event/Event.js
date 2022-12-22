@@ -4,12 +4,12 @@ import eventImg from '../../assets/event.jpg'
 import {Button} from '../../components/Index'
 const Event = () => {
   return (
-    <div class="event">
-        <div class="event-box">
-            <div class="image">
+    <div className="event">
+        <div className="event-box">
+            <div className="image">
                 <img src={eventImg} alt=""/>
             </div>
-            <div class="info">
+            <div className="info">
                 <h1>special evening with james</h1>
                 <p>
                     Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.
