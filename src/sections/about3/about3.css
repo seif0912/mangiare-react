@@ -1,0 +1,26 @@
+
+.about-us-3 {
+    padding-top: 75px;
+    padding-bottom: 75px;
+  }
+  
+  .about-us-3 .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  
+  .about-us-3 .container .info {
+    -ms-flex-preferred-size: 42.5%;
+        flex-basis: 42.5%;
+  }
+  
+  .about-us-3 .container .info p {
+    line-height: 1.5;
+    color: #777;
+    margin: 0;
+    margin-top: 25px;
+  }
