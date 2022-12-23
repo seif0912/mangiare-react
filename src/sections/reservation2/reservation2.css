@@ -1,0 +1,58 @@
+
+.reservation-about-3 {
+    padding-top: 75px;
+    padding-bottom: 75px;
+    text-align: center;
+  }
+  
+  .reservation-about-3 .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.reservation-about-3 .container .image {
+    text-align: center;
+    -ms-flex-preferred-size: 49%;
+        flex-basis: 49%;
+}
+
+.reservation-about-3 .container .image img {
+   height: 588px;
+   width: 500px;
+}
+
+.reservation-about-3 .container .form {
+    -ms-flex-preferred-size: 49%;
+        flex-basis: 49%;
+}
+
+.reservation-about-3 .container .form form {
+    padding: 0;
+    background-color: unset;
+    width: 100%;
+  }
+  
+  @media (max-width: 1034px) {
+    .reservation-about-3 .container {
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+    }
+    .reservation-about-3 .container .form {
+      -ms-flex-preferred-size: 100%;
+          flex-basis: 100%;
+    }
+    .reservation-about-3 .container .form .head {
+      text-align: center;
+    }
+    .reservation-about-3 .container .image {
+      display: none;
+    }
+  }  

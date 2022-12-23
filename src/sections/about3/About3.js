@@ -3,7 +3,7 @@ import './about3.css'
 import {Container, SectionHeader, Button} from '../../components/Index'
 import chefLogo from '../../assets/chef-logo.png'
 import food1 from '../../assets/food-4.jpg'
-import food2 from '../../assets/food-4.jpg'
+import food2 from '../../assets/food-8.jpg'
 import food3 from '../../assets/food-11.jpg'
 import food4 from '../../assets/food-25.jpg'
 
