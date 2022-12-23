@@ -1,13 +1,19 @@
 import React from 'react'
-import {Welcome} from '../../sections/Index'
+import { Rest, Chef, Testimonials, About2, Para } from '../../sections/Index'
+import {PageHeader} from '../../components/Index'
 
-const AboutUs1 = () => {
+const AboutUs2 = () => {
   return (
     <>
-        <Welcome/>
+        <PageHeader title="about us 2"/> 
+        <About2/>
+        <Para/>
+        <Rest/>
+        <Chef/>
+        <Testimonials/>
     </>
 
   )
 }
 
-export default AboutUs1
+export default AboutUs2
