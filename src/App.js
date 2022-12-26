@@ -1,6 +1,6 @@
 import './App.css';
 import {Header, Footer} from './sections/Index'
-import {Home, AboutUs1, AboutUs2, AboutUs3, ChefPage} from './pages/Index'
+import {Home, AboutUs1, AboutUs2, AboutUs3, ChefPage, Services1} from './pages/Index'
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 
 const App = () => {
@@ -14,6 +14,7 @@ const App = () => {
             <Route path='/about-us-2' element={<AboutUs2/>}/>
             <Route path='/about-us-3' element={<AboutUs3/>}/>
             <Route path='/chef' element={<ChefPage/>}/>
+            <Route path='/services-style-1' element={<Services1/>}/>
           </Routes>
         <Footer/>
       </Router>
