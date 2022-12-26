@@ -1,11 +1,14 @@
 import React from 'react'
-import {  Chef, Speciality, About3, Reservation2 } from '../../sections/Index'
+import { Testimonials, Speciality2, SpecialDishes } from '../../sections/Index'
 import {PageHeader} from '../../components/Index'
 
 const Services1 = () => {
   return (
     <>
         <PageHeader title="services style 1"/>
+        <Speciality2/>
+        <SpecialDishes/>
+        <Testimonials/>
     </>
   )
 }
