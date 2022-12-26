@@ -1,0 +1,17 @@
+
+.welcome-services-2 {
+    padding-top: 75px;
+    padding-bottom: 75px;
+    text-align: center;
+  }
+  
+  .welcome-services-2 .container {
+    margin-top: 40px;
+  }
+  
+  @media (max-width: 1038px) {
+    .welcome-services-2 .container .plates {
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+    }
+  }

@@ -1,5 +1,6 @@
 import React from 'react'
 import './speciality2.css'
+import { Container } from '../../components/Index'
 import Logo1 from '../../assets/deco-logo.png'
 import Logo2 from '../../assets/chef-logo.png'
 import Logo3 from '../../assets/bowl-logo.png'
@@ -11,8 +12,8 @@ import Img4 from '../../assets/food-25.jpg'
 
 const Speciality2 = () => {
     return (
-        <div className="speciality-services-style-1">
-        <div className="container">
+        <div className="speciality-services-style-2">
+        <Container>
             <div className="info">
                 <div className="boxes">
                     <div className="box">
@@ -77,7 +78,7 @@ const Speciality2 = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </Container>
     </div>
     )
 }
